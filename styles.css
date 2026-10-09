@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Theme */
-
 :root {
     --bg: #d4d4d4;
     --vid: #c7c7c2;
@@ -28,24 +26,6 @@ body {
     -webkit-user-select: none;
 }
 
-body.theme-plum {
-    --bg: #1a1510;
-    --vid: #261f18;
-    --border: #4a3b2c;
-    --text: #f5b041;
-    --button-dark: #101010;
-    --button-shadow: #050505;
-}
-
-body.theme-slate {
-    --bg: #0f140f;
-    --vid: #162016;
-    --border: #2e4a2e;
-    --text: #76d7c4;
-    --button-dark: #101010;
-    --button-shadow: #050505;
-}
-
 /* Header */
 
 header {
@@ -61,45 +41,6 @@ header h1 {
     font-weight: 500;
     letter-spacing: .15em;
     text-transform: uppercase;
-}
-
-.theme-picker {
-    position: absolute;
-    left: 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.theme-btn {
-    width: 16px;
-    height: 16px;
-    border: 1px solid rgba(0,0,0,.35);
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform .12s;
-    padding: 0;
-}
-
-.theme-btn:hover {
-    transform: scale(1.1);
-}
-
-.theme-btn.active {
-    outline: 1px solid var(--text);
-    outline-offset: 2px;
-}
-
-.theme-btn[data-theme="classic"] {
-    background: #bfbfb8;
-}
-
-.theme-btn[data-theme="plum"] {
-    background: #f5b041;
-}
-
-.theme-btn[data-theme="slate"] {
-    background: #76d7c4;
 }
 
 #config-btn,

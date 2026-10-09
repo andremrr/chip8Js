@@ -11,7 +11,6 @@ const FILES = [
     "./src/assets/fontset.js",
     "./src/system/config.js",
     "./src/system/quirks.js",
-    "./theme.js",
     "./styles.css",
     "./manifest.json",
     "./images/icon.jpg",

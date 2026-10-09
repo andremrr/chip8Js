@@ -8,7 +8,6 @@ import {
     loadSavedQuirks,
     saveQuirks
 } from "./src/system/config.js";
-import "./theme.js";
 
 const canvas =  document.getElementById("screen");
 const ctx = canvas.getContext("2d");
